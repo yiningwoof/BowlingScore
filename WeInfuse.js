@@ -44,7 +44,6 @@ const getScoreForFrames = function(scoresForRolls) {
             if (isSpare(nextScore)) {  // spare; calculate total for frame to include next roll
                 // if next is spare, need nextNextScore before pushing score
                 if (nextNextScore === undefined) {
-                    // console.log('pushing null');
                     if (!hasTenFrames) frameScore.push(null);
                     break;
                 }
