@@ -1,4 +1,4 @@
-const { getScoreForFrames } = require('./WeInfuse');
+const { getScoreForFrames } = require('./solution');
 
 const testData = [
     {
